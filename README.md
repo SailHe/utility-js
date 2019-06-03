@@ -22,4 +22,9 @@ npm run build
 ```
 3. 发布: 向master分支提交PR
 4. Merge: 将lib中的文件并入主分支即可
+```shell
+git checkout master
+git merge --no-ff dev
+git push origin master
+```
 5. 注意, 此种方式模块貌似不能使用npm的版本控制
