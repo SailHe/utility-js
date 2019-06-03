@@ -24,6 +24,17 @@ export function isValidVar(value) {
     }
 }
 
+export function debugLogClosure(DEBUG__) {
+    const debugLog = (message) => {
+        if (isValidVar(DEBUG__)) {
+            console.log(message);
+        } else {
+            //do nothing
+        }
+    }
+    return debugLog;
+}
+
 /**
  * Descriptions: 若已过期 返回true<p>
  *
