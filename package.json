@@ -1,0 +1,16 @@
+{
+  "name": "utility-js",
+  "version": "1.0.0",
+  "description": "Encapsulates some common functions",
+  "main": "./lib/utility.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.comSailHeutility-js.git"
+  },
+  "author": "sailhe",
+  "license": "GPL-3.0",
+  "devDependencies": {}
+}
